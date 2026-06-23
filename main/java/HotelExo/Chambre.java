@@ -1,6 +1,5 @@
 package HotelExo;
 
-// Chambre.java
 public class Chambre {
     private int numero;
     private int nombreLits;
