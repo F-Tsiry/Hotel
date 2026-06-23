@@ -1,6 +1,5 @@
 package HotelExo;
 
-// Hotel.java (classe principale)
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
