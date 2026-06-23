@@ -3,7 +3,6 @@ package HotelExo;
 import lombok.Getter;
 
 @Getter
-// Utilisateur.java
 public abstract class Utilisateur {
     private String nom;
     private String email;
