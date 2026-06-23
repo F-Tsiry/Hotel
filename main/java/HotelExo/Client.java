@@ -3,7 +3,6 @@ package HotelExo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-// Client.java
 import java.util.ArrayList;
 import java.util.List;
 
