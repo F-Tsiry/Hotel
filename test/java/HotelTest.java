@@ -10,8 +10,8 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class HotelTest {
-    Hotel hotel;
-    Client client;
+    var hotel;
+    var client;
     @BeforeEach
     public void setUp() {
         hotel = new Hotel("Le hot", "Ivandry", "0341111111", "hotel@hotel.com");
