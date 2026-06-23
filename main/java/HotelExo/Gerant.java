@@ -1,7 +1,5 @@
 package HotelExo;
 
-
-// Gerant.java
 import java.util.ArrayList;
 import java.util.List;
 
