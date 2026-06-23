@@ -17,7 +17,7 @@ public class Chambre {
     public int getNumero() { return numero; }
     public int getNombreLits() { return nombreLits; }
     public double getPrixParNuit() { return prixParNuit; }
-    public boolean isDisponible() { return disponible; }
+    public boolean estDisponible() { return disponible; }
     public void setDisponible(boolean disponible) { this.disponible = disponible; }
 
     @Override
