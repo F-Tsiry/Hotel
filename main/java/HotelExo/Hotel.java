@@ -30,7 +30,7 @@ public class Hotel {
     public Reservation faireReservation(Client client, int nombreLits,
                                         LocalDate arrivee, LocalDate depart) {
         for (Chambre c : chambres) {
-            if (c.isDisponible() && c.getNombreLits() >= nombreLits) {
+            if (c.estDisponible() && c.getNombreLits() >= nombreLits) {
                 Reservation r = new Reservation(client, c, arrivee, depart);
                 reservations.add(r);
                 client.ajouterReservation(r);
